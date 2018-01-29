@@ -5,4 +5,7 @@ def oxford_comma(array)
     length = array.size-1
     string = array[0..length].join(",")
     string.shovel(",and #{array.last}")
+  else 
+    array.join()
+  end 
 end
